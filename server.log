@@ -1,0 +1,15 @@
+INFO:root:CREATE : name='string3' description='string3' 
+ERROR:root:CSV Batch upload crashed: (sqlite3.IntegrityError) UNIQUE constraint failed: items.name
+[SQL: INSERT INTO items (name, description) VALUES (?, ?) RETURNING id]
+[parameters: ('Janeczka', 'Oliff')]
+(Background on this error at: https://sqlalche.me/e/21/gkpj)
+ERROR:root:CSV Batch upload crashed: (sqlite3.IntegrityError) UNIQUE constraint failed: items.name
+[SQL: INSERT INTO items (name, description) VALUES (?, ?) RETURNING id]
+[parameters: ('Janeczka', 'Oliff')]
+(Background on this error at: https://sqlalche.me/e/21/gkpj)
+ERROR:root:CSV Batch upload crashed: (sqlite3.IntegrityError) UNIQUE constraint failed: items.name
+[SQL: INSERT INTO items (name, description) VALUES (?, ?) RETURNING id]
+[parameters: ('Janeczka', 'Oliff')]
+(Background on this error at: https://sqlalche.me/e/21/gkpj)
+INFO:root:BULK CREATE: Successfully uploaded 1000 items from CSV.
+INFO:root:BULK CREATE: Successfully uploaded 1000 items from CSV.
