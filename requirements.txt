@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+flask
+pytest
+httpx2
